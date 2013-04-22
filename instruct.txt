@@ -1,0 +1,18 @@
+********This will only work in Cinema 4D R12+*********
+
+This file consists of a polygon object to which a Python tag (a) is applied. This Python tag imports per each frame, a txt file
+(fileName-#frame.txt) with a list of N points in the format x, y, z which builds the point cloud of the imported object.
+The Python also updates a point selection tag (g) consisting of all points which are  not (0, 0, 0). This tag is applied to the Cloner 
+Object and prevents it from cloning a gazillion unnecessary objects in origin.
+
+a) Python script
+b) skip every n points in the imported data. Equals less resolution
+c) Drop the name of the sequence you are importing from the processing script (described elsewhere) here. If no path is present, the script won't work. duh.
+d) Nummber of files of the sequence
+e) 100% means normal playspeed. Less means, well, slower.
+f) The polygon object which will be reconstructed from the imported kinect data. If you are starting from a fresh file, create a empty polygon object and drag it here.
+
+
+Have fun!
+
+

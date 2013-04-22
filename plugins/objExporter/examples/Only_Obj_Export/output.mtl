@@ -1,0 +1,14 @@
+#Exportet with Processing objExporter_ version 0.1
+#only colors and alphavalue are supportet at the moment
+#The Model contains  1  different Materials
+
+newmtl globe
+Ns 100.0000
+Ka 0.000000 0.000000 0.000000
+Kd 0.39215687 0.39215687 0.39215687
+Ks 0.500000 0.500000 0.500000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.0
+illum 2
+
